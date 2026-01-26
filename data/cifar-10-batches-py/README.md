@@ -108,5 +108,3 @@ python experiments/svhn_evaluation.py
 
 High confidence does not imply high reliability.
 This project highlights why confidence calibration is essential for deploying machine learning models in real-world settings.
-
----c framing), say the word.
