@@ -6,8 +6,6 @@ A systematic empirical study of prediction confidence, calibration, and failure 
 
 The project combines controlled experimentation, calibration metrics, and qualitative failure analysis to evaluate the reliability of modern classification models beyond standard accuracy-based evaluation.
 
----
-
 ## Experimental Setup
 
 ### Model
@@ -24,8 +22,6 @@ The project combines controlled experimentation, calibration metrics, and qualit
 * In-distribution generalization
 * Out-of-distribution confidence behavior
 * Calibration error and confidence misalignment
-
----
 
 ## Key Focus Areas
 
@@ -45,8 +41,6 @@ The project combines controlled experimentation, calibration metrics, and qualit
 * Reliability diagrams
 * In-distribution vs out-of-distribution confidence distributions
 
----
-
 ## Failure Modes Analyzed
 
 * Confident misclassification on ambiguous samples
@@ -54,16 +48,12 @@ The project combines controlled experimentation, calibration metrics, and qualit
 * Calibration degradation despite high training accuracy
 * Overlapping confidence distributions between ID and OOD data
 
----
-
 ## Sample Findings
 
 * High training accuracy does not imply reliable confidence estimates.
 * A non-trivial fraction of incorrect predictions are made with high confidence.
 * Out-of-distribution samples receive confidence values comparable to in-distribution data.
 * Calibration error increases even when accuracy degradation is moderate.
-
----
 
 ## Project Structure
 
@@ -74,15 +64,11 @@ The project combines controlled experimentation, calibration metrics, and qualit
 * `results/plots/`: Calibration and confidence visualizations
 * `results/summary.md`: Written analysis of findings
 
----
-
 ## Motivation
 
 Machine learning models are increasingly deployed in real-world decision-making systems where incorrect but confident predictions can cause significant harm. While accuracy is the dominant evaluation metric, it fails to capture reliability failures that arise under distribution shift.
 
 This project investigates these hidden failure modes through controlled experimentation and structured analysis, emphasizing the need for confidence-aware evaluation in deployed systems.
-
----
 
 ## How to Run
 
@@ -92,8 +78,6 @@ python train.py
 python analyze_results.py
 ```
 
----
-
 ## Future Work
 
 * Temperature scaling and post-hoc calibration
@@ -101,6 +85,3 @@ python analyze_results.py
 * Controlled label-noise experiments
 * Architecture comparisons (e.g., ResNet variants)
 * OOD detection metrics (AUROC)
-
----
-
