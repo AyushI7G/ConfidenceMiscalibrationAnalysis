@@ -31,8 +31,6 @@ The project combines controlled experimentation, calibration metrics, and qualit
 * Failure modes invisible to accuracy-based metrics
 * Limitations of softmax confidence as a reliability measure
 
----
-
 ## Metrics and Analysis
 
 * Classification accuracy
@@ -85,3 +83,4 @@ python analyze_results.py
 * Controlled label-noise experiments
 * Architecture comparisons (e.g., ResNet variants)
 * OOD detection metrics (AUROC)
+
