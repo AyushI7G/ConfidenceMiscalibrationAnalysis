@@ -1,0 +1,9 @@
+Model: SimpleCNN
+Training Dataset: CIFAR-10
+Evaluation Dataset: SVHN (Out-of-Distribution)
+
+Mean Prediction Confidence: 0.71
+
+Observation:
+The model assigns high confidence to SVHN samples despite severe
+distribution shift, indicating overconfidence on out-of-distribution data.

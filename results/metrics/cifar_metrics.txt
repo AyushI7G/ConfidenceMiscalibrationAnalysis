@@ -1,0 +1,16 @@
+Model: SimpleCNN
+Training Dataset: CIFAR-10
+Evaluation Dataset: CIFAR-10 (In-Distribution)
+
+Training Accuracy (final epoch): 0.94
+Test Accuracy: 0.71
+
+Expected Calibration Error (ECE): 0.09
+
+Confidence Threshold: 0.9
+Fraction of Confident Correct Predictions: 0.52
+Fraction of Confident Incorrect Predictions: 0.11
+
+Observation:
+Despite high training accuracy, the model exhibits notable miscalibration,
+with a non-trivial fraction of high-confidence incorrect predictions.
