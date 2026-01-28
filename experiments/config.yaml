@@ -1,0 +1,23 @@
+dataset:
+  train: CIFAR-10
+  test_id: CIFAR-10
+  test_ood: SVHN
+
+model:
+  name: SimpleCNN
+  optimizer: Adam
+  learning_rate: 0.001
+  epochs: 10
+  batch_size: 128
+
+confidence:
+  definition: max_softmax_probability
+  confident_threshold: 0.9
+
+noise:
+  label_noise_levels: [0.0, 0.2, 0.4]
+
+calibration:
+  bins: 10
+  metrics:
+    - ECE
