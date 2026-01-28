@@ -1,0 +1,11 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Ignore datasets (but keep loader code)
+data/*
+!data/datasets.py
+
+# OS junk
+.DS_Store
+Thumbs.db
