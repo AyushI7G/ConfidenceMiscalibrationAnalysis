@@ -1,4 +1,4 @@
-# Confidence Calibration and Failure Analysis of Deep Neural Networks Under Distribution Shift
+# Confidence Calibration in Neural Networks under Distribution Shift
 
 ## Overview
 
@@ -103,3 +103,4 @@ python analyze_results.py
 * OOD detection metrics (AUROC)
 
 ---
+
