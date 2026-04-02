@@ -32,11 +32,3 @@ for epoch in range(10):
     print(f"Epoch {epoch+1} | Train Acc: {correct/total:.4f}")
 
 torch.save(model.state_dict(), "results/cifar_model.pth")
-
-
-akjflka lah fhkjfhahfka flaf l
-uwegygfkjjhgas hs csh shshg 
-asfkhba fiuayryfa iyiayfipd fu
-FDA IFGKAGFKAKJFKJAHGKKAJ GKJ 
-jdgjagd gaf jagja jajahg agk
-ygajsg fjag jga jfgjafg ag fajgja gja
