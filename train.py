@@ -37,3 +37,4 @@ torch.save(model.state_dict(), "results/cifar_model.pth")
 akjflka lah fhkjfhahfka flaf l
 uwegygfkjjhgas hs csh shshg 
 asfkhba fiuayryfa iyiayfipd fu
+FDA IFGKAGFKAKJFKJAHGKKAJ GKJ 
