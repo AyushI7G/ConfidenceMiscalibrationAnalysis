@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+import torch.optim as optim
 from models.cnn import SimpleCNN
 from data.datasets import get_cifar10
 
